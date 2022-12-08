@@ -1,20 +1,15 @@
 Author: Andrew Belmonte Sato 
 Used language: java
 
-My implementation of the BE challenge is found in the source folder. There you will find part 1 (identity encryption) in the "encryption" folder and part 2 (domain model) 
-in the "server" folder. The "server" folder contains a main.java that is executable with a console. It allows you to enter command to see the result of how I applied the
-filter logic of the given json file by retrieving superheroes. Follow the displayed commands to get the values of the superheroes of a json file. 
+My implementation of the BE challenge is found in the source folder. There you will find part 1 (identity encryption) in the "encryption" folder and part 2 (domain model) in the "server" folder. The "server" folder contains a main.java that is executable with a console. It allows you to enter command to see the result of how I applied the filter logic of the given json file by retrieving superheroes. Follow the displayed commands to get the values of the superheroes of a json file. 
 
 -Don't forget to add the json file provided in the BE challenge exercise sheet to the project or it will not run, because it needs to read a json file to do so. 
 -Make sure you imported the encryption package when using main.java.
 -make sure both packages are within the same project.
 -In addition you must also add the jar "json-simple-1.1.1.jar"  to your project to run the code.
 
-The encryption part was pretty straightforward, but I took a while to wrap my head around the goal of the second part. I eventually used a library called "json-simple"
-(https://code.google.com/archive/p/json-simple/) to allow me to parse json files into interactable java code more easily. I hope this was what the exercise intended.
+The encryption part was pretty straightforward, but I took a while to wrap my head around the goal of the second part. I eventually used a library called "json-simple" (https://code.google.com/archive/p/json-simple/) to allow me to parse json files into interactable java code more easily. I hope this was what the exercise intended.
 
-Part 3 (Superhero Webservice) I did not implement in this version of my code because I did not have the time to read up on how to make POST requests properly. I did
-not want to drag my submission on for too long. Until now I was only able to start an embedded webservice using jersey and the Grizzly HTTP Server Framework
-(https://javaee.github.io/grizzly/httpserverframework.html) to display data in the browser using a BASE_URI and http locally.
+Part 3 (Superhero Webservice) I did not implement in this version of my code because I did not have the time to read up on how to make POST requests properly. I did not want to drag my submission on for too long. Until now I was only able to start an embedded webservice using jersey and the Grizzly HTTP Server Framework(https://javaee.github.io/grizzly/httpserverframework.html) to display data in the browser using a BASE_URI and http locally.
 
 Upon knowing whether or not I did the first two parts of the challenge correctly I can try to complete the rest in the future.
